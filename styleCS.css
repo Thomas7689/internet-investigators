@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: rgb(180, 180, 180);
+}
+
+#banner{
+    background-color: rgb(90, 90, 90);
+    margin-top: 0px;
+    height: 60px;
+    padding: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 30px;
+    color: burlywood;
+    margin-bottom: 25px;
+}
+
+#headingCS {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 30px;
+    color: rgb(175, 141, 97);
+    margin-bottom: 25px;
+}
+#headingCS h1 {
+    border-bottom-style: double;
+    border-bottom-width: 5px;
+    border-color: rgb(121, 92, 50);
+}
+
+nav{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+nav li a:hover{
+    box-shadow: 0px 0px 0px 4px rgb(209, 52, 29);
+}
+
+nav li a {
+    padding: 5px;
+    min-width: 70px;
+    width: auto;
+    height: 25px;
+    margin: 10px;
+    background-color: rgb(221, 220, 220);
+    text-decoration: none;
+    color: rgb(97, 54, 19);
+    box-shadow: 2px 2px 2px rgb(209, 52, 29);
+    padding: 5px;
+}
+
+#containerCS {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px 20px;
+    column-gap: 15px;
+   
+}
+
+.h3CS {
+    color: rgb(58, 31, 4);
+    font-size: xx-large;
+}
+
+P {
+    font-size: x-large;
+}
+
+img{
+    border-style: solid;
+    border-color: rgb(209, 52, 29);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(209, 52, 29);
+    margin-top: 30px;
+}
+
+#footer {
+    border-top-style: double;
+    border-top-width: 5px;
+    border-color: rgb(121, 92, 50);
+    width: 100%;
+    border-bottom-style: double;
+    border-bottom-width: 5px;
+    border-color: rgb(121, 92, 50);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+#footer h3 {
+    padding: 5px;
+    margin-bottom: 10px;
+    color: rgb(58, 31, 4);
+}
